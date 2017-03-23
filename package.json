@@ -22,7 +22,8 @@
     "start": "webpack --watch",
     "serve": "httpster -p 32217",
     "flow": "flow",
-    "build": "PROD_ENV=1 webpack"
+    "build": "PROD_ENV=1 webpack",
+    "build:min": "PROD_ENV=1 MIN_ENV=1 webpack"
   },
   "devDependencies": {
     "@fuglu/create-react-component": "^1.0.1",
