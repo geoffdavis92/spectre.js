@@ -3,4 +3,5 @@ node_modules
 .DS_Store 
 .sass-cache 
 npm-debug.log 
-dev
+dev 
+yarn-error.log
