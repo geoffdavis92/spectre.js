@@ -6,6 +6,10 @@
   "repository": "https://github.com/geoffdavis92/spectre.js.git",
   "author": "Geoff Davis <geoffdavis92@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "create-react-component": "./node_modules/@fuglu/create-react-component/index.js",
+    "new:component": "./bin/newComponent.bash"
+  },
   "scripts": {
     "start": "webpack --watch",
     "serve": "httpster -p 32217",
@@ -13,6 +17,7 @@
     "build": "PROD_ENV=1 webpack"
   },
   "devDependencies": {
+    "@fuglu/create-react-component": "^1.0.1",
     "babel": "^6.23.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
