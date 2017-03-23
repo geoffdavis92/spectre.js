@@ -10,8 +10,8 @@ const DashboardPlugin = require('webpack-dashboard/plugin');
 module.exports = {
     entry: './index.js',
     output: {
-    	path: path.join(__dirname,'/dist'),
-    	filename: 'bundle.js'
+    	path: path.join(__dirname,(PROD ? '/dist' : '/dev')),
+    	filename: PROD ? 'spectre.min.js' : 'spectre.js'
     },
     module: {
     	loaders: [

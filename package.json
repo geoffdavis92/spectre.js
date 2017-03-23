@@ -6,6 +6,11 @@
   "repository": "https://github.com/geoffdavis92/spectre.js.git",
   "author": "Geoff Davis <geoffdavis92@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch",
+    "serve": "httpster -p 32217",
+    "build": "PROD_ENV=1 webpack"
+  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.24.0",
@@ -14,6 +19,7 @@
     "babel-preset-react": "^6.23.0",
     "eslint": "^3.18.0",
     "flow-bin": "^0.42.0",
+    "spectre.css": "^0.2.10",
     "webpack": "^2.3.1",
     "webpack-dashboard": "^0.3.0",
     "webpack-dev-server": "^2.4.2"
