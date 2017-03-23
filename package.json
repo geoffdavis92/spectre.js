@@ -1,6 +1,6 @@
 {
   "name": "spectre.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A companion Javascript library for Spectre.css",
   "main": "./src/index.js",
   "repository": "https://github.com/geoffdavis92/spectre.js.git",
