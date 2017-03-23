@@ -8,8 +8,65 @@
 </head>
 
 <body>
-    <section id="panels">
-        
+    <section id="panels" class="columns">
+    	<div class="column col-4"></div>
+	    <div class="column col-4">
+	        <div class="panel">
+	            <div class="panel-header text-center">
+	                <figure class="avatar avatar-lg">
+	                    <!-- <img src="https://picturepan2.github.io/spectre/img/avatar-2.png"> -->
+	                </figure>
+	                <div class="panel-title mt-10">Bruce Banner</div>
+	                <div class="panel-subtitle">THE HULK</div>
+	            </div>
+	            <nav class="panel-nav">
+	                <ul class="tab tab-block" data-tab-init="profile-panel-tab">
+	                    <li class="tab-item active" data-tab-trigger="profile">
+	                        <a href="#panels">Profile</a>
+	                    </li>
+	                    <li class="tab-item" data-tab-trigger="files">
+	                        <a href="#panels">Files</a>
+	                    </li>
+	                    <li class="tab-item" data-tab-trigger="tasks">
+	                        <a href="#panels">Tasks</a>
+	                    </li>
+	                </ul>
+	            </nav>
+	            <div class="panel-body" data-tab-id="profile">
+	                <div class="tile tile-centered">
+	                    <div class="tile-content">
+	                        <div class="tile-title">E-mail</div>
+	                        <div class="tile-subtitle">bruce.banner@hulk.com</div>
+	                    </div>
+	                    <div class="tile-action">
+	                        <button class="btn btn-link btn-action btn-lg"><i class="icon icon-mail_outline"></i></button>
+	                    </div>
+	                </div>
+	                <div class="tile tile-centered">
+	                    <div class="tile-content">
+	                        <div class="tile-title">Skype</div>
+	                        <div class="tile-subtitle">bruce.banner</div>
+	                    </div>
+	                    <div class="tile-action">
+	                        <button class="btn btn-link btn-action btn-lg"><i class="icon icon-phone"></i></button>
+	                    </div>
+	                </div>
+	                <div class="tile tile-centered">
+	                    <div class="tile-content">
+	                        <div class="tile-title">Location</div>
+	                        <div class="tile-subtitle">Dayton, Ohio</div>
+	                    </div>
+	                    <div class="tile-action">
+	                        <button class="btn btn-link btn-action btn-lg"><i class="icon icon-map"></i></button>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="panel-footer">
+	                <button class="btn btn-primary btn-block">Edit</button>
+	            </div>
+	        </div>
+		</div>
+    	<div class="column col-4"></div>
     </section>
     <script src="./dev/spectre.js"></script>
 </body>
