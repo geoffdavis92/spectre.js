@@ -1,1 +1,21 @@
-{}
+{
+  "name": "spectre.js",
+  "version": "0.0.0",
+  "description": "A companion Javascript library for Spectre.css",
+  "main": "index.js",
+  "repository": "https://github.com/geoffdavis92/spectre.js.git",
+  "author": "Geoff Davis <geoffdavis92@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "eslint": "^3.18.0",
+    "flow-bin": "^0.42.0",
+    "webpack": "^2.3.1",
+    "webpack-dashboard": "^0.3.0",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
