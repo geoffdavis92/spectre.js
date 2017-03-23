@@ -1,7 +1,7 @@
 // Tabs @flow
 
-import type { Identifier } from '../types'
-import { select, selectAll } from '../functions'
+import type { Identifier } from '../../types'
+import { select, selectAll } from '../../functions'
 
 export default class Tabs {
 	id: Identifier;
