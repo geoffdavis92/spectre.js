@@ -2,13 +2,14 @@
   "name": "spectre.js",
   "version": "0.0.0",
   "description": "A companion Javascript library for Spectre.css",
-  "main": "index.js",
+  "main": "./src/index.js",
   "repository": "https://github.com/geoffdavis92/spectre.js.git",
   "author": "Geoff Davis <geoffdavis92@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "webpack --watch",
     "serve": "httpster -p 32217",
+    "flow": "flow",
     "build": "PROD_ENV=1 webpack"
   },
   "devDependencies": {
