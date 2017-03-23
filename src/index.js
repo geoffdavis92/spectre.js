@@ -1,7 +1,18 @@
 // index @flow
 
-export default function Spectre () {
-	return 'spectre.js coming soon!'
+import { select, selectAll } from './functions'
+import Tabs from './components/Tabs'
+
+const Spectre = {
+	select,
+	selectAll,
+	Tabs
 }
 
-window.Spectre = Spectre
+export default Spectre
+
+export {
+	select,
+	selectAll,
+	Tabs
+}
